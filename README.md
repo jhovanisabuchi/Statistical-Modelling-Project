@@ -3,20 +3,26 @@ This project aims to analyze and compare data from City Bike stations and nearby
 
 ## Project/Goals
 Retrieve station data from the City Bike API for a specific city.
+
 For each station, collect up to 50 businesses (POIs) within a 1000-meter radius using relevant APIs.
+
 Combine the station and POI data for analysis.
+
 Conduct exploratory data analysis (EDA) to identify trends, patterns, and insights from the combined dataset.
 
 ## Process
 1.Data Retrieval:
 * Select stations from the City Bike API.
 * Query the Yelp API for businesses within 1000 meters of each station.
+
 2.Data Processing:
 * Merge station data with POI information.
 * Handle missing or inconsistent data.
+
 3.Exploratory Data Analysis:
 * Compare metrics such as business ratings and distances with station attributes.
 * Visualize trends and correlations using plots and charts.
+
 4.Regression Modeling:
 * Perform regression analysis to model the relationship between independent variables (e.g., empty slots, free bikes, business distance) and the target variable (business rating).
 * Assess the performance of the model and evaluate how well the independent variables predict business ratings.
